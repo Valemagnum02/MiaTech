@@ -8,18 +8,27 @@
 </head>
 <body>
     <h1>titolo</h1>
-    <p> Lorem ipsum, dolor sit amet <a href="https://www.google.com/" target="_blank">consectetur</a> adipisicing elit. <br> Dolorem vero repudiandae aspernatur quasi voluptatum soluta nemo labore modi quia voluptatem?</p>
+    <div><p>Lorem ipsum dolor sit amet consectetur.</p></div>
+    <div><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, molestiae!</p></div>
+    <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit maiores voluptate dolore atque.</p></div>
+    <div><p>Lorem ipsum dolor, <span class="text-1">>sit amet consectetur adipisicing elit.</span> Autem provident porro cupiditate ipsum quod consequatur aperiam.</p></div>
+    <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia natus animi placeat aut exercitationem. Quod, voluptatibus! Praesentium, corporis.</p></div>
+    <div><p>Lorem ipsum, dolor sit amet <a href="https://www.google.com/" target="_blank">consectetur</a> adipisicing elit. <br> Dolorem vero repudiandae aspernatur quasi voluptatum soluta nemo labore modi quia voluptatem?</p>
+        
 <style>
     table, tr, th, td{
         border: 1px solid black;
     }
 </style>
  <table>
+    <thead>
     <tr>
      <th>super</th>
      <th>cars</th>
      <th>cost</th>
     </tr>
+    </thead>
+    <tbody>
      <tr>
       <td>Aston martin</td>
       <td>vantage</td>
@@ -40,11 +49,14 @@
      <td>Huravcàn Spyder</td>
      <td> 216.522 euro</td>
     </tr>
+    </tbody>
+    <tfoot>
     <tr>
      <td>Porsche</td>
      <td>718 Cayman</td>
      <td>63.623 euro</td>
     </tr>
+    </tfoot>
 </table>
 
 
@@ -69,22 +81,16 @@
     <dd>a circular object</dd>
     <dt>2) rubik cube</dt>       
     <dd>a cubic object</dd>
-    <dt>3) piramid</dt>
-    <dd>a piramidal object</dd>
  </dl>
- <figure>
-    <img src="moderncd.jpg" alt="modern-cd=circle" width="375" height="375"> 
-    <figcaption>img.1) modern cd</figcaption><br>
-     <img src="rubik cube.jpg" alt="rubic-cube=cubic" width="350" height="350">                                                                         
-    <figcaption>img.2 Rubik Cube</figcaption><br>
-    <img src="piramide.jpg" alt="Piramid=piramidal" width="300" height="150"> 
-    <figcaption>img.3) Egypt Piramid</figcaption><br>
-   
- </figure>
+
+   <div class="box">
+    <img id="moderncd" src="img/moderncd.jpg" alt="modern-cd=circle" width="375" height="375">
+    <figcaption>img.1 modern cd</figcaption> 
+    <img id="rubik-cube" src="img/rubik-cube.jpg" alt="rubic-cube=cubic" width="350" height="350">    
+    <figcaption id="caption2">img.2 Rubik Cube</figcaption>  
+   </div>
 
 </body>
-    
-
-
-
 </html>
+
+
