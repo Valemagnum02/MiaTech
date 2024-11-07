@@ -3,10 +3,8 @@
     display: revert;
   }
 
-.box {
-    display: flex;
+.button{
+    display: block;
+    background-color: gray;
+    border: 1px solid black;
 }
-.box .img{
-    justify-content: end;
-}
-
