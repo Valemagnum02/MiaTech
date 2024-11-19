@@ -2,6 +2,9 @@
     list-style: none;
 }
 
+.art{
+    text-align: right;
+}
 
 ul li{
     float: left;
@@ -25,8 +28,33 @@ input{
 h4{
     color: rgb(255, 170, 0);
 }
+h5{
+    background-color: green;
+}
 
-tr{
-    border: 1px black;
+h1{
+    color:white;
+    background-color: red;
+}
+
+h2{
+ color:rgb(180, 142, 18);
+ background-color:purple;
+}
+
+h3{
+color: rgb(220, 20, 220);
+}
+
+tr td{
+    border: 1px solid black;
     border-style: hidden hidden solid hidden;
+    padding:20px;
+}
+
+tr th{
+    border: 1px solid black;
+    border-style: hidden hidden solid hidden;
+    text-align: right;
+    padding:20px;
 }
