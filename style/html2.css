@@ -1,5 +1,11 @@
 *{
     list-style: none;
+    font-size: 30px;
+}
+
+body{
+    background-color: rgb(30, 30, 30);
+    color: bisque;
 }
 
 .art{
@@ -16,7 +22,11 @@ ul li{
 }
 
 input{
-    color: grey ;
+    background-color: rgb(30, 30, 30);
+}
+
+textarea{
+    background-color: rgb(30, 30, 30);
 }
 
 .ciao{
@@ -28,7 +38,7 @@ input{
 h4{
     color: rgb(255, 170, 0);
 }
-h5{
+#hey{
     background-color: green;
 }
 
