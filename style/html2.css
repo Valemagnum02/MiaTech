@@ -68,3 +68,30 @@ tr th{
     text-align: right;
     padding:20px;
 }
+
+a:hover{
+    color: magenta;
+
+}
+
+.li6:hover{
+    background-color: brown;
+
+}
+
+.li6:active{
+    background-color: bisque;
+}
+
+article{
+    color:yellow;
+}
+
+.heu{
+    color:brown;
+}
+
+#reka{
+    color:springgreen;
+    background-color: bisque;
+}
