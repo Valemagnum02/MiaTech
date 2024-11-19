@@ -1,0 +1,31 @@
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+    all: unset;
+    display: revert;
+  }
+
+  body{
+    color:red;
+  }
+
+legend{
+    border: 4px black solid;
+    
+}
+
+aside p{
+    color: black;
+}
+.button{
+    display: block;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+button:hover{
+    background-color: gray;
+}
+
+button:active{
+    background-color: rgb(0, 157, 255);
+    color: white;
+}
