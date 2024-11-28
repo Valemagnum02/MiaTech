@@ -1,1 +1,8 @@
-patch 0.1 beta
+background viola: #754ffe
+sfondo bottone verde: #38a169
+colore testo: rgb(255 255 255 / 50%)
+titolo: Welcome to Geeks UI Learning Application
+testo: Hand-picked Instructor and expertly crafted courses, designed for the modern students and entrepreneur.
+bottone verde: Browse Courses
+bottone bianco: Are You Instructor?
+box viola: height:500px
