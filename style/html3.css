@@ -1,10 +1,21 @@
+:root{
+    --rot: rgb(225,0,0);
+    --frag: 100px 50%;
+}
+
+
+
+*{
+    color: var(--rot);
+}
+
 .rem{
     font-size: 18px;
 }
 
 .em{
     font-size: 10px;
-    padding: 200px;
+    padding: var(--frag);
     background-color: rgb(219, 157, 82);
 }
 
@@ -13,7 +24,7 @@
 }
 
 .para-b{
-font-size: 3rem;
+    font-size: 3rem;
 }
 
 .ciao{
@@ -22,10 +33,16 @@ font-size: 3rem;
 }
 
 ul{
+
     list-style: none;
 }
 
+li{
+    display: inline-block;
+}
+
 .ciao-square{
+    margin: 0 auto;
     padding: 10%;
     margin-right: 90%;
     background-color: #1706fc;
@@ -46,4 +63,30 @@ ul{
 
 .p-c{
     color:#1706fc;
+}
+
+.hey-a{
+    border: 1px solid rgb(68, 68, 68);
+    width: 20px;
+    height:20px;
+    background-color: var(--rot);
+    display: inline;
+
+}
+
+.hey-b{
+    border: 1px solid rgb(68, 68, 68);
+    width: 20px;
+    height:20px;
+    background-color: var(--rot);
+    display: inline-block;
+
+}
+
+.hey-c{
+    border: 1px solid rgb(68, 68, 68);
+    width: 20px;
+    height:20px;
+    background-color: var(--rot);
+    display:block;
 }
