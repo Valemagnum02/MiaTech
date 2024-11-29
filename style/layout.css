@@ -1,0 +1,31 @@
+.bella{
+    display:grid;
+    grid-template-columns: 200px 700px 200px;
+    grid-template-rows: 170px 120px 800px 150px;
+    gap: 10px 20px;
+}
+
+.bella div{
+    background-color: gray;
+    padding: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid rgb(68, 68, 68) ;
+}
+
+.ia{
+
+ grid-column-start: 1;
+ grid-column-end:4
+}
+
+.ib{
+
+    grid-column-start: 1;
+    grid-column-end:4
+}
+.if{
+
+    grid-column-start: 1;
+    grid-column-end:4
+}

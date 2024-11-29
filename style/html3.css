@@ -62,6 +62,7 @@ li{
 }
 
 .p-c{
+    display: none;
     color:#1706fc;
 }
 
@@ -89,4 +90,19 @@ li{
     height:20px;
     background-color: var(--rot);
     display:block;
+}
+
+.dec{
+    width: 300px;
+    display: inline-block;
+}
+
+
+
+.foto{
+    float:  right;
+    padding: 200px;
+    text-align: center;
+    background-color: green ;
+
 }
