@@ -94,15 +94,32 @@ li{
 
 .dec{
     width: 300px;
+    
+}
+
+.flo{
+    float: none;
     display: inline-block;
 }
 
 
+.hmm{
+    background-color: black;
+    color:white;
+    left: 60px;
+    position:fixed;
+}
 
-.foto{
-    float:  right;
-    padding: 200px;
-    text-align: center;
-    background-color: green ;
+.hmm .opt{
+    display: inline-block;
+    color:white;
+}
 
+.hey-square{
+    background-color:crimson;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    right:0;
+    position:absolute;
 }

@@ -95,3 +95,12 @@ article{
     color:springgreen;
     background-color: bisque;
 }
+
+footer{
+    bottom:0;
+    position: sticky;
+}
+
+footer td, th{
+    background-color: black;
+}
