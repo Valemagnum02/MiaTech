@@ -42,9 +42,15 @@ span{
     display: none;
 }
 
-
-
-
 img{
     float: right;
+}
+
+.table{
+    width: 100%;
+}
+
+.table p{
+    width: 200px;
+    display: inline-block;
 }
