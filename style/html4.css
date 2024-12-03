@@ -13,7 +13,7 @@
     height: 100px;
     align-content: center;
     top:0;
-    position:sticky;
+    position:fixed;
 }
 .nav .bar{
     background-color: rgb(250, 208, 157);
