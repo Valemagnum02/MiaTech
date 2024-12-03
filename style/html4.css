@@ -37,3 +37,7 @@ span{
 .c{
     display:block;
 }
+
+.hidden{
+    display: none;
+}
