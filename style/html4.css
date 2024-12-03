@@ -16,3 +16,24 @@ div{
 li{
     display: inline-block;
 }
+
+span{
+    width:20px;
+    height:20px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: brown;
+}
+
+.a{
+    display: inline-block;
+
+}
+
+.b{
+    display: inline;
+}
+
+.c{
+    display:block;
+}
