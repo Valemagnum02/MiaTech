@@ -69,3 +69,14 @@ img{
     display: inline-block;
 }
 
+footer{
+    position: fixed;
+    bottom:0;
+    background-color: bisque;
+
+}
+
+.foot{
+    margin: 20px;
+
+}
