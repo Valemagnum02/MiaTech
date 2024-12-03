@@ -1,11 +1,23 @@
 :root{
     --color: rgb(20,145,67);
-    --padd: 200px 300px;
+    --padd: 100px 200px;
 
 }
 
 *{
     color: var(--color);
+}
+
+.nav{
+    background-color: bisque;
+    height: 100px;
+    align-content: center;
+    top:0;
+    position:sticky;
+}
+.nav .bar{
+    background-color: rgb(250, 208, 157);
+    
 }
 
 div{
@@ -15,6 +27,8 @@ div{
 
 li{
     display: inline-block;
+    padding: 10px 30px;
+    
 }
 
 span{
@@ -47,10 +61,11 @@ img{
 }
 
 .table{
-    width: 100%;
+    width: auto;
 }
 
 .table p{
     width: 200px;
     display: inline-block;
 }
+
