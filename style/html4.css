@@ -125,3 +125,11 @@ footer{
 .card-text p{
     margin: 0;
 }
+
+.flex{
+    display: flex;
+}
+
+.box{
+
+}
