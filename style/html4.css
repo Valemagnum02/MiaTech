@@ -89,3 +89,39 @@ footer{
     bottom: 0;
     right: 0;
 }
+
+
+/*card url(https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_cards)*/
+.card{
+    margin: 0;
+    padding:0;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: bisque;
+    box-shadow: 1px 3px 10px rgba(19, 19, 19, 0.3);
+}
+
+.X{
+    margin: 0;
+    position:absolute;
+    top:0;
+    right: 0;
+    color:red;
+
+}
+
+.card-text{
+    margin: 0;
+    padding: 0;
+    text-indent: 10px;
+    background-color: rgb(40, 40, 40);
+    width: fit-content;
+    padding: 30px 86px 10px  10px;
+    box-shadow: 3px 1px 5px rgba(19, 19, 19, 0.5);
+
+}
+
+.card-text p{
+    margin: 0;
+}
