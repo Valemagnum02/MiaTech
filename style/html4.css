@@ -127,12 +127,13 @@ footer{
 }
 
 .flex{
+    width: auto;
+    height: 800px;
     display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
+}
 
-
+.flex div{
+    height: 20px;
 }
 
 .box-a{
@@ -140,7 +141,6 @@ footer{
     margin: 0;
     background-color: rgb(255, 231, 159);
     flex-grow: 1;
-
 }
 
 .box-b{
@@ -149,6 +149,7 @@ footer{
     flex-basis: 150px;
     background-color: rgb(255, 179, 87);
     flex-grow:2;
+    align-self: center;
 }
 
 .box-c{
@@ -156,5 +157,6 @@ footer{
     padding: 20px ;
     background-color: rgb(255, 140, 0);
     flex-grow: 3;
+    align-self:end;
 }
 
