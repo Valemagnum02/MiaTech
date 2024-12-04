@@ -127,9 +127,25 @@ footer{
 }
 
 .flex{
-    display: column;
+    display: flex;
+    flex-direction: column-reverse;
+
+
 }
 
-.box{
+.box-a{
+    margin: 0;
+    background-color: rgb(255, 231, 159);
 
 }
+
+.box-b{
+    margin: 0;
+    background-color: rgb(255, 179, 87);
+}
+
+.box-c{
+    margin: 0;
+    background-color: rgb(255, 140, 0);
+}
+
