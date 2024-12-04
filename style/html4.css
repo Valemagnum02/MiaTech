@@ -170,7 +170,7 @@ footer{
     grid-template-columns: auto auto auto;
     background-color:gray;
     box-shadow:  2px 10px 0px rgb(26, 26, 26);
-    gap:10px
+    
 }
 
 .calcola div{
@@ -191,8 +191,26 @@ footer{
    
 }
 
-.trice-b{
+.trice-d{
+    width: 100px;
     background-color: rgb(163, 163, 163);
+    height: 30px;
+}
+
+.trice-b{
+    width: 100px;
+    
+    background-color: rgb(163, 163, 163);
+}
+
+.trice-i{
+    background-color: rgb(163, 163, 163);
+    height: 30px;
+}
+
+.trice-j{
+    background-color: rgb(163, 163, 163);
+    height: 30px;
 }
 
 @media screen and (max-width:769px){
