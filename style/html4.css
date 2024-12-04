@@ -136,19 +136,23 @@ footer{
 }
 
 .box-a{
+    padding: 20px ;
     margin: 0;
     background-color: rgb(255, 231, 159);
+    flex-grow: 1;
 
 }
 
 .box-b{
     margin: 0;
+    padding: 20px ;
     background-color: rgb(255, 179, 87);
     flex-grow:2;
 }
 
 .box-c{
     margin: 0;
+    padding: 20px ;
     background-color: rgb(255, 140, 0);
     flex-grow: 3;
 }
